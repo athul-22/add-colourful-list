@@ -2,7 +2,13 @@ function nameFun(){
     var nameBox = document.querySelector(".main");
     var addName = document.querySelector("#add-name");
     var addList = document.querySelector(".add-main");
-    
+    var nameValue = document.getElementById("name").value;
+    localStorage.setItem('name', nameValue);
+    console.log(localStorage.getItem('name'));
+    nameBox.style.visibility = "hidden";
+    nameBox.style.display = "none";
+    addList.style.visibility = "visible";
+    addName.innerHTML = "welcome"+" "+nameValue;
 
 }
 
