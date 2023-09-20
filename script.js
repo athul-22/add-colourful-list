@@ -1,7 +1,9 @@
 function nameFun(){
     var nameBox = document.querySelector(".main");
     var addName = document.querySelector("#add-name");
-   
+    var addList = document.querySelector(".add-main");
+    
+
 }
 
 function listFun(){
