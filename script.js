@@ -1,4 +1,5 @@
 function nameFun(){
+    var nameBox = document.querySelector(".main");
    
 
 }
